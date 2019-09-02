@@ -1,0 +1,36 @@
+div#todoMain {
+
+    width: 75vw;
+    height: 60vh;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+
+li > * {
+	display: inline;
+}
+
+.form-control {
+
+	border-color: #FF5722;
+}
+
+.form-control:focus {
+	border-color: #FF5722;
+	outline: none;
+	box-shadow: 5px 5px  #FF5722;
+}
+
+.fa {
+	color: #FF5722;
+}
+
+li {
+	border: 1px solid #FF5722;
+}
